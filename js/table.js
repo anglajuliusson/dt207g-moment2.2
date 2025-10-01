@@ -14,7 +14,6 @@ async function loadWorkExperiences() {
         data.forEach(work => {
             allRows += `
                 <tr>
-                    <td>${work.id}</td>
                     <td>${work.companyname}</td>
                     <td>${work.jobtitle}</td>
                     <td>${work.location}</td>
