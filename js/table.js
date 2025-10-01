@@ -17,8 +17,8 @@ async function loadWorkExperiences() {
                     <td>${work.companyname}</td>
                     <td>${work.jobtitle}</td>
                     <td>${work.location}</td>
-                    <td>${work.startdate}</td>
-                    <td>${work.enddate}</td>
+                    <td>${work.startdate.substring(0, 10)}</td>
+                    <td>${work.enddate.substring(0, 10)}</td>
                 </tr>
                 `;
                 tabelBody.innerHTML += row; 
