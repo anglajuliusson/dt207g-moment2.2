@@ -28,9 +28,6 @@ form.addEventListener('submit', async (e) => {
     // Rensa formuläret
     form.reset();
 
-    // Uppdatera tabell direkt efter ny post
-    loadWorkExperiences();
-
   } catch (err) {
     document.querySelector('.message').textContent = "Något gick fel: " + err;
   }
