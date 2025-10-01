@@ -1,0 +1,19 @@
+h2 {
+    text-align: center;
+    margin: 2em;
+}
+.about_text {
+    background-color: rgb(209, 228, 209);
+    padding: 3em;
+}
+.about_text p {
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 1.5em;
+}
+@media (max-width: 600px) {
+    .about_text p {
+        font-size: small;
+    }
+}
